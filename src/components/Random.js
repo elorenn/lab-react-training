@@ -7,7 +7,7 @@ function Random(props) {
 
   return (
     <div className="Random Card">
-      Random value between {props.min} and {props.max} => {randomNum}
+      Random value between {min} and {max} => {randomNum}
     </div>
   );
 }
