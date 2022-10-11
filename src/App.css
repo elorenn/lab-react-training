@@ -13,18 +13,25 @@
   flex-direction: column;
 }
 
-.Card .ImgWrapper {
-  /* flex: 1; */
+/* .Card .ImgWrapper {
+  flex: 1;
+} */
+
+.Card .TxtWrapper * {
+  margin: 5px;
 }
 
-.Card .TxtWrapper {
-  /* flex: 6; */
-}
-
-/* .ImgWrapper img {
+.ImgWrapper img {
   height: 100%;
   margin-right: 5px;
-} */
+}
+
+.ImgWrapper img.Round {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  object-fit: cover;
+}
 
 .CreditCard {
   width: 300px;
@@ -54,7 +61,7 @@
 }
 
 .Rating {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .DriverCard {
@@ -63,4 +70,6 @@
   border-radius: 10px;
   color: #fff;
   padding: 15px;
+  justify-content: center;
+  align-items: center;
 }
