@@ -8,6 +8,11 @@
   column-gap: 5px;
 }
 
+.BoxColor {
+  text-align: center;
+  flex-direction: column;
+}
+
 .IdCardImg {
   /* flex: 1; */
 }
