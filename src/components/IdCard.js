@@ -5,30 +5,23 @@ function IdCard(props) {
 
   return (
     <div className="IdCard Card">
-      {/* <div className="IdCardImg"> */}
+      {/* <div className="ImgWrapper"> */}
       <img src={picture} alt="profile portrait" />
       {/* </div> */}
-      <div className="IdCardTxt">
-        <p>
-          <b>First name: </b>
-          {firstName}
-        </p>
-        <p>
-          <b>Last name: </b>
-          {lastName}
-        </p>
-        <p>
-          <b>Gender: </b>
-          {gender}
-        </p>
-        <p>
-          <b>Height: </b>
-          {height / 100}m
-        </p>
-        <p>
-          <b>Birth: </b>
-          {birth.toDateString()}
-        </p>
+      <div className="TxtWrapper">
+        <b>First name: </b>
+        {firstName}
+        <br></br>
+        <b>Last name: </b>
+        {lastName}
+        <br></br>
+        <b>Gender: </b>
+        {gender}
+        <br></br>
+        <b>Height: </b>
+        {height / 100}m<br></br>
+        <b>Birth: </b>
+        {birth.toDateString()}
       </div>
     </div>
   );

@@ -13,22 +13,18 @@
   flex-direction: column;
 }
 
-.IdCardImg {
+.Card .ImgWrapper {
   /* flex: 1; */
 }
 
-.IdCardTxt {
+.Card .TxtWrapper {
   /* flex: 6; */
 }
 
-/* .IdCardImg img {
+/* .ImgWrapper img {
   height: 100%;
   margin-right: 5px;
 } */
-
-.IdCard img {
-  /* margin-right: 5px; */
-}
 
 .CreditCard {
   width: 300px;
@@ -59,4 +55,12 @@
 
 .Rating {
   font-size: 3em;
+}
+
+.DriverCard {
+  background-color: #425cbb;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 15px;
 }
