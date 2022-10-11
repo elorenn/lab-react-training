@@ -11,7 +11,7 @@ function Greetings(props) {
   };
 
   return (
-    <div className="Greetings IdCard">
+    <div className="Greetings Card">
       {greetings[props.lang]} {props.children}
     </div>
   );

@@ -26,6 +26,8 @@ function App() {
       <h1>Iteration 2 | Component: Greetings</h1>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
+
+      <h1>Iteration 3 | Component: Random</h1>
     </div>
   );
 }
